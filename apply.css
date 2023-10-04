@@ -1,0 +1,88 @@
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+
+
+
+  /* Apply Form Styles */
+#applyForm {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  #applyForm button[type="submit"] {
+    display:contents;
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
+  
+  
+  
+  #applyForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  #applyForm input[type="text"],
+  #applyForm input[type="tel"],
+  #applyForm input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #applyForm input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  #applyForm input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #applyForm input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .required {
+    color: red;
+  }
+  
